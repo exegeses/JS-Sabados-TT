@@ -15,3 +15,15 @@
 
 >El motivo original de Javascript fue el de agregar interactividad en una experiencia de navegación
 >
+>El mejor motivo actual es el de modificar el DOM
+
+*** DOM : Document Object Model ***
+
+### Podemos modificar
+
+    1. Atributos de un elemento
+    2. Contenido de un elemento
+    3. Crear nuevos elementos
+    
+*** En Javascript utilizamo "dot syntax"
+
