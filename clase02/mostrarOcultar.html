@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>Mostrar/Ocultar</h1>
-    <a href="">ocultar</a> |
-    <a href="">mostrar</a>
+    <a href="#" onclick="ocultar()">ocultar</a> |
+    <a href="#" onclick="mostrar()">mostrar</a> |
+    <a href="#">mostar/acultar</a>
 
     <div id="caja"></div>
 
@@ -17,8 +18,19 @@
         var caja = document.getElementById('caja');
 
         //generar función/es
+        function ocultar()
+        {
+            //caja.style.opacity = 0;
+            //caja.style.visibility = 'hidden';
+            caja.style.display = 'none';
+        }
 
-
+        function mostrar()
+        {
+            //caja.style.opacity = 1;
+            //caja.style.visibility = 'visible';
+            caja.style.display = 'block';
+        }
     </script>
 
 </body>
