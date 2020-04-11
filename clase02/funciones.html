@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Funciones en Javascript</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Funciones en Javascript</h1>
+
+    <button onclick="cambiarColor()">rojo</button>
+    <button onclick="cambiarColor2()">verde</button>
+
+    <div id="caja"></div>
+
+    <script>
+
+        var caja = document.getElementById('caja');
+        
+        function cambiarColor()
+        {
+            caja.style.backgroundColor = '#d00';
+        }
+
+        function cambiarColor2() {
+            caja.style.backgroundColor = '#0d0';
+        }
+
+    </script>
+</body>
+</html>

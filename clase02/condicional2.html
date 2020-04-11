@@ -8,17 +8,20 @@
 <body>
     <h1>Condicional en javascript</h1>
 
+    <img src="imagenes/error.png" id="logo">
 
     <script>
-        var numero = 200;
+        var numero = prompt('Ingrese un número');
+        var logo = document.getElementById('logo');
 
         if ( numero < 100 ) {
-            document.write('<img src="imagenes/ok.png">');
+            logo.src = 'imagenes/ok.png';
         }
         else {
-            document.write('<img src="imagenes/error.png">');
+            logo.src = 'imagenes/error.png';
         }
 
     </script>
+
 </body>
 </html>
