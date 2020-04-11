@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cambiar contenido de texto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Cambiar contenido de texto</h1>
+
+    <a href="#">español</a> |
+    <a href="#" onclick="frances()">française</a> |
+    <a href="#">english</a>
+
+    <p id="frase">
+        En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero...
+    </p>
+
+
+    <script>
+        //ubicar elemento/s dentro del DOM
+        var frase = document.getElementById('frase');
+
+        //generar función/es
+        function espanol()
+        {
+
+        }
+        function frances()
+        {
+            frase.innerText = 'Dans un endroit de La Mancha, dont je ne veux pas me souvenir, il n\'y a pas longtemps qu\'un hidalgo des lanciers vivait dans le chantier naval ...'
+
+        }
+        function ingles()
+        {
+            /* In a place in La Mancha, whose name I do not want to remember, it was not long ago that a hidalgo of the spearmen lived in the shipyard ...*/
+
+
+        }
+
+
+    </script>
+
+</body>
+</html>
