@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Formulario - validación de con javascript </h1>
+
+        <div class="alert alert-secondary p-4 col-8 mx-auto">
+
+            <form action="procesarDatos.php" method="post">
+
+
+                Nombre: <br>
+                <input type="text" name="nombre" class="form-control">
+                <small class="mb-4 text-danger" id="errorNombre">  </small>
+                <br>
+
+                Email: <br>
+                <input type="email" name="email" class="form-control">
+                <small class="mb-4 text-danger" id="errorEmail">  </small>
+                <br>
+
+                <button class="btn btn-dark mt-3">enviar formulario</button>
+            </form>
+
+        </div>
+
+
+    </main>
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>
